@@ -421,6 +421,7 @@ body.dark .search-field i{
   .wrapper {
       margin: 200px auto;
   }
+
 }
 
 .wrapper .box {
@@ -432,7 +433,7 @@ body.dark .search-field i{
 
 .wrapper .box .front-face {
   background: #fff;
-  height: 220px;
+  height: 350px;
   width: 100%;
   display: inline-block;
   flex-direction: column;
@@ -443,6 +444,7 @@ body.dark .search-field i{
 
 .box .front-face .icon {
   height: 80px;
+  text-align: center;
 }
 
 .box .front-face .icon i {
@@ -469,8 +471,8 @@ display: inline-block;
   top: 0;
   left: 0;
   z-index: 1;
-  height: 220px;
-  width: 100%;
+  height: auto;
+  width: auto;
   padding: 30px;
   color: #fff;
   opacity: 0;
