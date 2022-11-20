@@ -9,7 +9,8 @@ html{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    transition: all 0.4s ease;;
+    transition: all 0.4s ease;
+    text-decoration: none;
 }
 
 
@@ -341,6 +342,7 @@ body.dark .search-field i{
 @media only screen and (max-width: 768px) {
   html {
     font-size: 10px;
+
   }
 }
 .credit a{
@@ -425,7 +427,7 @@ body.dark .search-field i{
 }
 
 .wrapper .box {
-  width: 350px;
+  width: 390px;
   margin: 0 auto;
   position: relative;
   perspective: 1000px;
@@ -445,10 +447,13 @@ body.dark .search-field i{
 .box .front-face .icon {
   height: 80px;
   text-align: center;
+  margin-top: 20%;
+  margin-bottom: auto;
 }
 
 .box .front-face .icon i {
   font-size: 65px;
+  text-align: center;
 }
 
 .box .front-face span,
@@ -456,13 +461,18 @@ body.dark .search-field i{
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
+  text-align: center;
 }
+
 
 .box .front-face .icon i,
 .box .front-face span {
   background: linear-gradient(-135deg, #c850c0, #4158d0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding-left: 16%;
+  padding-right: 0%;
 }
 
 .box .back-face {
@@ -471,8 +481,8 @@ display: inline-block;
   top: 0;
   left: 0;
   z-index: 1;
-  height: auto;
-  width: auto;
+  height: 390px;
+  width: 390px;
   padding: 30px;
   color: #fff;
   opacity: 0;
@@ -487,6 +497,7 @@ display: inline-block;
 .box .back-face p {
   margin-top: 10px;
   text-align: justify;
+  font-size: 15px;
 }
 
 .box:hover .back-face {
@@ -515,5 +526,6 @@ button {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    text-decoration: none;
   }
   /*socials*/
